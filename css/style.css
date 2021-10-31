@@ -1,0 +1,171 @@
+/*header style*/
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+#navheader{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navitem{
+    display: inline-block;
+    width: 19%;
+}
+
+.navlink{
+    display: block;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.loginBtn{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+#logo{
+    height: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*Homepage Styling*/
+.aboutText{
+    padding-left: 200px;
+}
+
+.aboutImg{
+    float: left;
+}
+
+/*Contact Form Styling*/
+#contactForm, #loginForm{
+    position: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.namediv{
+    display: inline-block;
+}
+
+.namediv label{
+    display: block;
+}
+
+.contactForm label{
+    font-weight: bold;
+}
+
+#detailsTextBox{
+    width: 757px;
+    height: 170px;
+    rows: 10;
+    cols: 80;
+}
+
+.bodyPanel {
+    width: 100%;
+    align-content: center;
+}
+
+.panel {
+    margin: auto;
+    width:80%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.panelHeading {
+    border-bottom: 1px solid black;
+}
+
+.title {
+    padding-left: 5%;
+    color: cornflowerblue;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+}
+
+#spacer {
+    padding-bottom: 50px;
+}
+
+.panelNoBorder {
+    margin: auto;
+    width:75%;
+    height: 600px;
+    border: 1px solid lightgrey;
+    contain: content;
+}
+
+.accountOptions {
+    background-color: lightgrey;
+}
+
+.accountMenu {
+    width: 30%;
+    padding-left: 1.75%;
+}
+
+.accountInformation {
+    float: right;
+    padding-right: 5%;
+    width: 33%;
+}
+
+.passwordReset {
+    width: 33%;
+    float: left;
+    padding-left: 2%;
+}
+
+.import {
+    width: 33%;
+    float: left;
+}
+
+#majorSearch {
+    width: 30%;
+}
+
+.searchContainer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    width: 90%;
+}
+
+.completed {
+    background: green;
+}
